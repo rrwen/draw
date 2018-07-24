@@ -36,8 +36,8 @@ A \link[grid]{grid.circle} \link[grid]{grob} object.
 \description{
 Draws a circle on the page given positioning, dimensions and styling.
 \cr\cr
-\if{html}{\figure{drawCircle.png}{options: width=250 alt="Figure: drawCircle Example"}}
-\if{latex}{\figure{drawCircle.png}{options: width=3in alt="Figure: drawCircle Example"}}
+\if{html}{\figure{drawcircle.png}{options: width=250 alt="Figure: drawCircle Example"}}
+\if{latex}{\figure{drawcircle.png}{options: width=3in alt="Figure: drawCircle Example"}}
 }
 \examples{
 library(draw)

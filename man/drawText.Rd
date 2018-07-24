@@ -51,8 +51,8 @@ A \link[grid]{grid.text} \link[grid]{grob} object.
 \description{
 Draws text on the page given positioning, dimensions and styling.
 \cr\cr
-\if{html}{\figure{drawText.png}{options: width=250 alt="Figure: drawText Example"}}
-\if{latex}{\figure{drawText.png}{options: width=3in alt="Figure: drawText Example"}}
+\if{html}{\figure{drawtext.png}{options: width=250 alt="Figure: drawText Example"}}
+\if{latex}{\figure{drawtext.png}{options: width=3in alt="Figure: drawText Example"}}
 }
 \examples{
 library(draw)

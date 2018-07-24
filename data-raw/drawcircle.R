@@ -23,4 +23,4 @@ drawCircle(x = 1.5, y = 1.5, radius = 0.75)
 drawCircle(x = 1.5, y = 1.5, radius = 1.25)
 
 # Export the drawing page to a PDF
-drawExport("./man/figures/drawCircle.png", ppi = 300)
+drawExport("./man/figures/drawcircle.png", ppi = 300)

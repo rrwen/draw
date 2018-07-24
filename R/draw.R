@@ -86,8 +86,8 @@
 #'
 #' Draws a box on the page given positioning, dimensions and styling.
 #' \cr\cr
-#' \if{html}{\figure{drawBox.png}{options: width=250 alt="Figure: drawBox Example"}}
-#' \if{latex}{\figure{drawBox.png}{options: width=3in alt="Figure: drawBox Example"}}
+#' \if{html}{\figure{drawbox.png}{options: width=250 alt="Figure: drawBox Example"}}
+#' \if{latex}{\figure{drawbox.png}{options: width=3in alt="Figure: drawBox Example"}}
 #'
 #' @param x Numeric value for the x-axis position of the center.
 #' @param y Numeric value for the y-axis position of the center.
@@ -162,8 +162,8 @@ drawBox <- function(x, y,
 #'
 #' Draws a circle on the page given positioning, dimensions and styling.
 #' \cr\cr
-#' \if{html}{\figure{drawCircle.png}{options: width=250 alt="Figure: drawCircle Example"}}
-#' \if{latex}{\figure{drawCircle.png}{options: width=3in alt="Figure: drawCircle Example"}}
+#' \if{html}{\figure{drawcircle.png}{options: width=250 alt="Figure: drawCircle Example"}}
+#' \if{latex}{\figure{drawcircle.png}{options: width=3in alt="Figure: drawCircle Example"}}
 #'
 #' @inheritParams drawBox
 #' @param radius Numeric value for radius of the circle.
@@ -222,8 +222,8 @@ drawCircle <- function(x, y,
 #'
 #' Draws a curve on the page given positioning, dimensions and styling.
 #' \cr\cr
-#' \if{html}{\figure{drawCurve.png}{options: width=250 alt="Figure: drawCurve Example"}}
-#' \if{latex}{\figure{drawCurve.png}{options: width=3in alt="Figure: drawCurve Example"}}
+#' \if{html}{\figure{drawcurve.png}{options: width=250 alt="Figure: drawCurve Example"}}
+#' \if{latex}{\figure{drawcurve.png}{options: width=3in alt="Figure: drawCurve Example"}}
 #'
 #' @inheritParams drawBox
 #' @param x Numeric vector of length 2 for x-axis position of starting and ending points.
@@ -450,8 +450,8 @@ drawExport <- function(f,
 #'
 #' Draws a line on the page given positioning, dimensions and styling.
 #' \cr\cr
-#' \if{html}{\figure{drawLine.png}{options: width=250 alt="Figure: drawLine Example"}}
-#' \if{latex}{\figure{drawLine.png}{options: width=3in alt="Figure: drawLine Example"}}
+#' \if{html}{\figure{drawline.png}{options: width=250 alt="Figure: drawLine Example"}}
+#' \if{latex}{\figure{drawline.png}{options: width=3in alt="Figure: drawLine Example"}}
 #'
 #' @inheritParams drawBox
 #' @inheritParams drawCurve
@@ -566,8 +566,8 @@ drawPage <- function(width = .pkgenv$pageWidth,
 #'
 #' Draws a point on the page given positioning, dimensions and styling.
 #' \cr\cr
-#' \if{html}{\figure{drawPoint.png}{options: width=250 alt="Figure: drawPoint Example"}}
-#' \if{latex}{\figure{drawPoint.png}{options: width=3in alt="Figure: drawPoint Example"}}
+#' \if{html}{\figure{drawpoint.png}{options: width=250 alt="Figure: drawPoint Example"}}
+#' \if{latex}{\figure{drawpoint.png}{options: width=3in alt="Figure: drawPoint Example"}}
 #'
 #' @inheritParams drawBox
 #' @param pch Numeric value indicating which plotting symbol to use (see \link[graphics]{points}). Some examples include 0 for square, 1 for circle, 2 for triangle, and 4 for X.
@@ -776,8 +776,8 @@ drawSettings <- function(...) {
 #'
 #' Draws text on the page given positioning, dimensions and styling.
 #' \cr\cr
-#' \if{html}{\figure{drawText.png}{options: width=250 alt="Figure: drawText Example"}}
-#' \if{latex}{\figure{drawText.png}{options: width=3in alt="Figure: drawText Example"}}
+#' \if{html}{\figure{drawtext.png}{options: width=250 alt="Figure: drawText Example"}}
+#' \if{latex}{\figure{drawtext.png}{options: width=3in alt="Figure: drawText Example"}}
 #'
 #' @inheritParams drawBox
 #' @param text Character value of the text to display at \emph{xy} position.

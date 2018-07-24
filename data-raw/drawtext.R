@@ -26,4 +26,4 @@ drawText(x = 0.75, y = 0.75, text = "Bottom Left", family = "serif")
 drawText(x = 2.25, y = 0.75,text = "Bottom Right", size = 14)
 
 # Export the drawing page to a PDF
-drawExport("./man/figures/drawText.png", ppi = 300)
+drawExport("./man/figures/drawtext.png", ppi = 300)

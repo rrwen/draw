@@ -41,8 +41,8 @@ A \link[grid]{grid.rect} \link[grid]{grob} object.
 \description{
 Draws a box on the page given positioning, dimensions and styling.
 \cr\cr
-\if{html}{\figure{drawBox.png}{options: width=250 alt="Figure: drawBox Example"}}
-\if{latex}{\figure{drawBox.png}{options: width=3in alt="Figure: drawBox Example"}}
+\if{html}{\figure{drawbox.png}{options: width=250 alt="Figure: drawBox Example"}}
+\if{latex}{\figure{drawbox.png}{options: width=3in alt="Figure: drawBox Example"}}
 }
 \examples{
 library(draw)

@@ -29,4 +29,4 @@ drawCurve(x = c(0.5, 2.5),
           angle = 90, inflect = TRUE)
 
 # Export the drawing page to a PDF
-drawExport("./man/figures/drawCurve.png", ppi = 300)
+drawExport("./man/figures/drawcurve.png", ppi = 300)

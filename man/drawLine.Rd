@@ -43,8 +43,8 @@ A \link[grid]{grid.lines} \link[grid]{grob} object.
 \description{
 Draws a line on the page given positioning, dimensions and styling.
 \cr\cr
-\if{html}{\figure{drawLine.png}{options: width=250 alt="Figure: drawLine Example"}}
-\if{latex}{\figure{drawLine.png}{options: width=3in alt="Figure: drawLine Example"}}
+\if{html}{\figure{drawline.png}{options: width=250 alt="Figure: drawLine Example"}}
+\if{latex}{\figure{drawline.png}{options: width=3in alt="Figure: drawLine Example"}}
 }
 \examples{
 library(draw)

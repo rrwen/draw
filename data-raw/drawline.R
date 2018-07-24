@@ -33,4 +33,4 @@ drawLine(x = c(0.5, 2.5),
          lineWidth = 3, lineType = "twodash", arrowEnds = "first")
 
 # Export the drawing page to a PDF
-drawExport("./man/figures/drawLine.png", ppi = 300)
+drawExport("./man/figures/drawline.png", ppi = 300)
