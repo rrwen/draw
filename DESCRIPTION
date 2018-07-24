@@ -1,10 +1,10 @@
 Package: draw
 Type: Package
-Title: Reproducible Graphics with R
-Version: 0.0.0
+Title: Wrapper Functions for Producing Graphics
+Version: 1.0.0
 Author: Richard Wen <rrwen.dev@gmail.com>
 Maintainer: Richard Wen <rrwen.dev@gmail.com>
-Description: User-friendly functions for creating consistent and reproducible graphics and diagrams with lines, common shapes, and text.
+Description: A set of user-friendly wrapper functions for creating consistent graphics and diagrams with lines, common shapes, text, and page settings.
   Compatible with and based on the R 'grid' package.
 Imports:
   grDevices,
