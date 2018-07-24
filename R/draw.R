@@ -103,6 +103,8 @@
 #' @param ... Additional arguments passed to \link[grid]{grid.rect}.
 #'
 #' @return A \link[grid]{grid.rect} \link[grid]{grob} object.
+#'
+#' @importFrom grid gpar grid.roundrect unit
 #' @export
 #' @seealso \link{drawSettings}
 #'
@@ -168,6 +170,8 @@ drawBox <- function(x, y,
 #' @param ... Additional arguments passed to \link[grid]{grid.circle}
 #'
 #' @return A \link[grid]{grid.circle} \link[grid]{grob} object.
+#'
+#' @importFrom grid gpar grid.circle unit
 #' @export
 #' @seealso \link{drawSettings}
 #'
@@ -240,6 +244,8 @@ drawCircle <- function(x, y,
 #' @param ... Additional arguments passed to \link[grid]{grid.curve}.
 #'
 #' @return A \link[grid]{grid.curve} \link[grid]{grob} object.
+#'
+#' @importFrom grid arrow gpar grid.curve unit
 #' @export
 #' @seealso \link{drawSettings}
 #'
@@ -335,6 +341,9 @@ drawCurve <- function(x, y,
 #' @param ... Additional arguments passed to \link[grDevices]{dev.copy}.
 #'
 #' @return The name and number of the device, according to \link[grDevices]{dev.copy}, which has been copied to.
+#'
+#' @importFrom tools file_ext
+#' @importFrom grDevices bmp dev.copy dev.off jpeg postscript pdf png setPS setEPS svg tiff
 #' @export
 #' @seealso \link{drawSettings}
 #'
@@ -399,31 +408,31 @@ drawExport <- function(f,
 
     # (export_format_ps) Set postscript types
     if (format == "ps") {
-      setPS()
-      ps <- postscript
+      grDevices::setPS()
+      ps <- grDevices::postscript
     } else if (format == "eps") {
-      setEPS()
-      eps <- postscript
+      grDevices::setEPS()
+      eps <- grDevices::postscript
     }
 
     # (export_format_vector) Export vector file
-    out <- dev.copy(pdf,
-                    f,
-                    width = width,
-                    height = height,
-                    pointsize = textSize, ...)
+    out <- grDevices::dev.copy(pdf,
+                               f,
+                               width = width,
+                               height = height,
+                               pointsize = textSize, ...)
 
   } else if (format %in% supportedRasters) {
 
     # (export_format_raster) Export raster file
-    jpg <- jpeg
-    out <- dev.copy(get(format),
-                    f,
-                    width = width,
-                    height = height,
-                    units = units,
-                    pointsize = textSize,
-                    res = ppi, ...)
+    jpg <- grDevices::jpeg
+    out <- grDevices::dev.copy(get(format),
+                               f,
+                               width = width,
+                               height = height,
+                               units = units,
+                               pointsize = textSize,
+                               res = ppi, ...)
   } else {
 
     # (export_format_error) Unsupported format
@@ -433,7 +442,7 @@ drawExport <- function(f,
     }
     stop(msg)
   }
-  dev.off()
+  grDevices::dev.off()
   invisible(out)
 }
 
@@ -451,6 +460,8 @@ drawExport <- function(f,
 #' @param ... Additional arguments passed to \link[grid]{grid.lines}.
 #'
 #' @return A \link[grid]{grid.lines} \link[grid]{grob} object.
+#'
+#' @importFrom grid arrow gpar grid.lines unit
 #' @export
 #' @seealso \link{drawSettings}
 #'
@@ -564,6 +575,8 @@ drawPage <- function(width = .pkgenv$pageWidth,
 #' @param ... Additional arguments passed to \link[grid]{grid.points}.
 #'
 #' @return A \link[grid]{grid.points} \link[grid]{grob} object.
+#'
+#' @importFrom grid gpar grid.points unit
 #' @export
 #' @seealso \link{drawSettings}
 #'
@@ -782,6 +795,8 @@ drawSettings <- function(...) {
 #' @param ... Additional arguments passed to \link[grid]{grid.text}.
 #'
 #' @return A \link[grid]{grid.text} \link[grid]{grob} object.
+#'
+#' @importFrom grid gpar grid.text unit
 #' @export
 #' @seealso \link{drawSettings}
 #'
