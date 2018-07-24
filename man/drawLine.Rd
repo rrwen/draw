@@ -75,7 +75,7 @@ drawLine(x = c(1, 4),
          lineWidth = 3, lineType = "twodash", arrowEnds = "first")
 
 # Export the drawing page to a PDF
-drawExport("drawLine.pdf", ppi = 300)
+drawExport("drawLine.pdf")
 
 }
 \seealso{

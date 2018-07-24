@@ -50,7 +50,7 @@ drawPage()
 drawBox(x = 1, y = 4, width = 2, height = 2)
 
 # Export the drawing page to a PDF
-drawExport("export.pdf", ppi=300)
+drawExport("export.pdf")
 
 # Export the drawing page to a PNG
 drawExport("export.png", ppi=300)

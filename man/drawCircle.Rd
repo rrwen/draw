@@ -58,7 +58,7 @@ drawCircle(x = 2.5, y = 2.5, radius = 1)
 drawCircle(x = 2.5, y = 2.5, radius = 2)
 
 # Export the drawing page to a PDF
-drawExport("drawCircle.pdf", ppi = 300)
+drawExport("drawCircle.pdf")
 
 }
 \seealso{

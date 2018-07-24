@@ -130,7 +130,7 @@
 #' drawBox(x = 4, y = 1, width = 1, height = 0.5, radius = 0.25)
 #'
 #' # Export the drawing page to a PDF
-#' drawExport("drawBox.pdf", ppi = 300)
+#' drawExport("drawBox.pdf")
 #'
 drawBox <- function(x, y,
                     width = .pkgenv$boxWidth,
@@ -194,7 +194,7 @@ drawBox <- function(x, y,
 #' drawCircle(x = 2.5, y = 2.5, radius = 2)
 #'
 #' # Export the drawing page to a PDF
-#' drawExport("drawCircle.pdf", ppi = 300)
+#' drawExport("drawCircle.pdf")
 #'
 drawCircle <- function(x, y,
                        radius = .pkgenv$circleRadius,
@@ -274,7 +274,7 @@ drawCircle <- function(x, y,
 #'           angle = 90, inflect = TRUE)
 #'
 #' # Export the drawing page to a PDF
-#' drawExport("drawCurve.pdf", ppi = 300)
+#' drawExport("drawCurve.pdf")
 #'
 drawCurve <- function(x, y,
                       curvature = .pkgenv$curveCurvature,
@@ -360,7 +360,7 @@ drawCurve <- function(x, y,
 #' drawBox(x = 1, y = 4, width = 2, height = 2)
 #'
 #' # Export the drawing page to a PDF
-#' drawExport("export.pdf", ppi=300)
+#' drawExport("export.pdf")
 #'
 #' # Export the drawing page to a PNG
 #' drawExport("export.png", ppi=300)
@@ -494,7 +494,7 @@ drawExport <- function(f,
 #'          lineWidth = 3, lineType = "twodash", arrowEnds = "first")
 #'
 #' # Export the drawing page to a PDF
-#' drawExport("drawLine.pdf", ppi = 300)
+#' drawExport("drawLine.pdf")
 #'
 drawLine <- function(x, y,
                      opacity = .pkgenv$lineOpacity,
@@ -602,7 +602,7 @@ drawPage <- function(width = .pkgenv$pageWidth,
 #' drawPoint(x = 4, y = 1, pch = 4, lineColor = "red")
 #'
 #' # Export the drawing page to a PDF
-#' drawExport("drawPoint.pdf", ppi = 300)
+#' drawExport("drawPoint.pdf")
 #'
 drawPoint <- function(x, y,
                       pch = .pkgenv$pointPCH,
@@ -822,7 +822,7 @@ drawSettings <- function(...) {
 #' drawText(x = 4, y = 1, text = "Bottom Right", size = 14)
 #'
 #' # Export the drawing page to a PDF
-#' drawExport("drawText.pdf", ppi = 300)
+#' drawExport("drawText.pdf")
 #'
 drawText <- function(x, y,
                      text = .pkgenv$text,

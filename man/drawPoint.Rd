@@ -63,7 +63,7 @@ drawPoint(x = 1, y = 1, pch = 2, lineWidth = 2)
 drawPoint(x = 4, y = 1, pch = 4, lineColor = "red")
 
 # Export the drawing page to a PDF
-drawExport("drawPoint.pdf", ppi = 300)
+drawExport("drawPoint.pdf")
 
 }
 \seealso{

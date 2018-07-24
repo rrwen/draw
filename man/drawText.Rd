@@ -76,7 +76,7 @@ drawText(x = 1, y = 1, text = "Bottom Left", family = "serif")
 drawText(x = 4, y = 1, text = "Bottom Right", size = 14)
 
 # Export the drawing page to a PDF
-drawExport("drawText.pdf", ppi = 300)
+drawExport("drawText.pdf")
 
 }
 \seealso{

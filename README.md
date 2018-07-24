@@ -42,7 +42,7 @@ drawLine(x = c(1, 4),
 drawText(x = 2.5, y = 2.5, text = "TEXT")
 
 # Export the drawing page to a PDF
-drawExport("draw.pdf", ppi = 300)
+drawExport("draw.pdf")
 
 # Export the drawing page to a JPEG
 drawExport("draw.jpeg", ppi = 300)

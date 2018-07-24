@@ -66,7 +66,7 @@ drawBox(x = 1, y = 1, width = 1, height = 0.5)
 drawBox(x = 4, y = 1, width = 1, height = 0.5, radius = 0.25)
 
 # Export the drawing page to a PDF
-drawExport("drawBox.pdf", ppi = 300)
+drawExport("drawBox.pdf")
 
 }
 \seealso{

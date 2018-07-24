@@ -92,7 +92,7 @@ drawCurve(x = c(1, 4),
           angle = 90, inflect = TRUE)
 
 # Export the drawing page to a PDF
-drawExport("drawCurve.pdf", ppi = 300)
+drawExport("drawCurve.pdf")
 
 }
 \seealso{
