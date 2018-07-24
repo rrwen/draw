@@ -3,7 +3,7 @@
 Richard Wen  
 rrwen.dev@gmail.com  
   
-Easy to use functions for programatically creating consistent and reproducible graphics and diagrams with lines, common shapes, and text. Compatible with and based on the R 'grid' package.
+Easy to use functions for creating consistent and reproducible graphics and diagrams with lines, common shapes, and text. Compatible with and based on the R 'grid' package.
 
 
 ## Install
