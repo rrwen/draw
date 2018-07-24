@@ -14,7 +14,7 @@ User-friendly functions for creating consistent and reproducible graphics and di
 3. Install [draw](https://github.com/rrwen/draw) in an R console with [install.packages](https://www.rdocumentation.org/packages/utils/versions/3.5.1/topics/install.packages)
 
 ```R
-install.packages("Rdraw")
+install.packages("draw")
 ```
 
 ## Usage
