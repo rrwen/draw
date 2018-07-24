@@ -26,4 +26,4 @@ drawBox(x = 0.75, y = 0.75, width = 1, height = 0.5)
 drawBox(x = 2.25, y = 0.75, width = 1, height = 0.5, radius = 0.25)
 
 # Export the drawing page to a PDF
-drawExport("./man/figures/figure_drawBox.png", ppi = 300)
+drawExport("./man/figures/drawBox.png", ppi = 300)

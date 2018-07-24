@@ -64,8 +64,8 @@ A \link[grid]{grid.curve} \link[grid]{grob} object.
 \description{
 Draws a curve on the page given positioning, dimensions and styling.
 \cr\cr
-\if{html}{\figure{figure_drawCurve.png}{options: width=250 alt="Figure: drawCurve Example"}}
-\if{latex}{\figure{figure_drawCurve.png}{options: width=3in alt="Figure: drawCurve Example"}}
+\if{html}{\figure{drawCurve.png}{options: width=250 alt="Figure: drawCurve Example"}}
+\if{latex}{\figure{drawCurve.png}{options: width=3in alt="Figure: drawCurve Example"}}
 }
 \examples{
 library(draw)

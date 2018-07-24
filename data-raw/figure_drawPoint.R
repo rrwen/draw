@@ -26,4 +26,4 @@ drawPoint(x = 0.75, y = 0.75, pch = 2, lineWidth = 2)
 drawPoint(x = 2.25, y = 0.75, pch = 4, lineColor = "red")
 
 # Export the drawing page to a PDF
-drawExport("./man/figures/figure_drawPoint.png", ppi = 300)
+drawExport("./man/figures/drawPoint.png", ppi = 300)

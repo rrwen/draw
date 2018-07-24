@@ -38,8 +38,8 @@ A \link[grid]{grid.points} \link[grid]{grob} object.
 \description{
 Draws a point on the page given positioning, dimensions and styling.
 \cr\cr
-\if{html}{\figure{figure_drawPoint.png}{options: width=250 alt="Figure: drawPoint Example"}}
-\if{latex}{\figure{figure_drawPoint.png}{options: width=3in alt="Figure: drawPoint Example"}}
+\if{html}{\figure{drawPoint.png}{options: width=250 alt="Figure: drawPoint Example"}}
+\if{latex}{\figure{drawPoint.png}{options: width=3in alt="Figure: drawPoint Example"}}
 }
 \examples{
 library(draw)
