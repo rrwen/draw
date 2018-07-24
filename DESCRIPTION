@@ -1,0 +1,19 @@
+Package: draw
+Type: Package
+Title: Reproducible Graphics with R
+Version: 0.0.0
+Author: Richard Wen <rrwen.dev@gmail.com>
+Maintainer: Richard Wen <rrwen.dev@gmail.com>
+Description: Easy to use functions for creating consistent and reproducible graphics and diagrams with lines, common shapes, and text.
+  Compatible with and based on the R 'grid' package.
+Imports:
+  grDevices,
+  grid,
+  tools,
+  utils
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+URL: https://github.com/rrwen/draw
+BugReports: https://github.com/rrwen/draw/issues
