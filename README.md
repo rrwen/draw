@@ -5,7 +5,6 @@ rrwen.dev@gmail.com
   
 A set of user-friendly wrapper functions for creating consistent graphics and diagrams with lines, common shapes, text, and page settings. Compatible with and based on the R 'grid' package.
 
-
 ## Install
 
 1. Install [R](https://www.r-project.org/)
