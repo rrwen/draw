@@ -3,7 +3,7 @@
 Richard Wen  
 rrwen.dev@gmail.com  
   
-User-friendly functions for creating consistent and reproducible graphics and diagrams with lines, common shapes, and text. Compatible with and based on the R 'grid' package.
+A set of user-friendly wrapper functions for creating consistent graphics and diagrams with lines, common shapes, text, and page settings. Compatible with and based on the R 'grid' package.
 
 
 ## Install
